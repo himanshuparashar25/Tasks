@@ -7,23 +7,23 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'addwith';
-  firstNum :string;
-  SecondNum :string;
-  result: number;
+  firstNum: any;
+  secondNum: any;
+  result: any;
 
   addNumber(){
-    this.result == parseInt(this.firstNum) + parseInt(this.SecondNum);
+    this.result = parseInt(this.firstNum) + parseInt(this.secondNum);
   }
   subNumber(){
-    this.result == parseInt(this.firstNum) - parseInt(this.SecondNum);
+    this.result = parseInt(this.firstNum) - parseInt(this.secondNum);
   }
   multiplyNumber(){
-    this.result == parseInt(this.firstNum) * parseInt(this.SecondNum);
+    this.result = parseInt(this.firstNum) * parseInt(this.secondNum);
   }
   divideNumber(){
-    this.result == parseInt(this.firstNum) / parseInt(this.SecondNum);
+    this.result = parseInt(this.firstNum) / parseInt(this.secondNum);
   }
   percentNumber(){
-    this.result == parseInt(this.firstNum) % parseInt(this.SecondNum);
-  
+    this.result = parseInt(this.firstNum) % parseInt(this.secondNum);
+  }
 }

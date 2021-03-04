@@ -12,7 +12,7 @@ import { TaskOneAddTwoNoComponent } from './task-one-add-two-no/task-one-add-two
     TaskOneAddTwoNoComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule, 
     AppRoutingModule,
     FormsModule
   ],
