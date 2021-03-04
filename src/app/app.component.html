@@ -1,15 +1,15 @@
-FirstNumber
 <br>
-<input type="text" [(ngModel)] = "firstNum">
+<input type="text" placeholder="Enter First Number" [(ngModel)] = "firstNum"  >
 <br>
-SecondNumber
 <br>
-<input type="text" [(ngModel)] = "secondNum">
+<input type="text" placeholder="Enter Second Number" [(ngModel)] = "secondNum">
 <br>
-Your sum is : <b>{{result}}</b>
 <br>
 <button (click)="addNumber()">+</button>
 <button (click)="subNumber()">-</button>
 <button (click)="divideNumber()">/</button>
 <button (click)="multiplyNumber()">*</button>
 <button (click)="percentNumber()">%</button> 
+<br>
+<br>
+<input type="text" value="{{result}}" placeholder="Result will display here">
